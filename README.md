@@ -34,3 +34,10 @@ grep -v '<attached:' cleaned_text.txt > data.txt
 ```batch
 set "response=EmilioBot 1.0: %%A"
 ```
+
+
+## Version 2.0
+
+This new version uses an LLM model trained on the messages. This isn't a finetune of GPT or LLAMA or any other pretrained model, i trained it from scratch, so it is not that great of course, but it does at least write real words most of the time.
+
+![Screenshot 2024-04-15 015545](https://github.com/EgeEken/EmilioBot/assets/96302110/8d7556e4-c14d-427d-98ab-5b7dab1d398b)
